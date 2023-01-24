@@ -69,7 +69,7 @@ view model =
     appContainer []
         [ header []
             [ homeLink []
-                [ Html.Styled.text "Home"
+                [ Html.Styled.text "Something"
                 ]
             ]
         ]
