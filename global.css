@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Dongle"), url(fonts/Dongle-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Dongle-Light";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Dongle"), url(/fonts/Dongle-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Dongle-Bold";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Dongle"), url(/fonts/Dongle-Bold.ttf) format("truetype");
+}
+
+body, html {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+
+}
+
+.something {
+  font-family: "Dongle";
+  color: red;
+}

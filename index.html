@@ -1,0 +1,20 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Main</title>
+  <link rel="stylesheet" href="global.css" >
+  <script src="elm.js"></script>
+</head>
+
+<body>
+  <div id="myapp"></div>
+  <div class="something">
+    something
+  </div>
+  <script>
+  var app = Elm.Main.init({
+    node: document.getElementById('myapp')
+  });
+  </script>
+</body>
+</html>
